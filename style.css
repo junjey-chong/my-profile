@@ -1,0 +1,150 @@
+/* Font */
+
+
+body{   
+	background-color: #839b97;
+	color: rgb(45,45,45);
+	font-family: Times;
+	font-size: 17px;
+	text-align: center;
+} 
+
+
+h1{
+	color: #294b52;
+	font-family: 'Mrs Saint Delafield', cursive;
+	font-size: 50px;
+} 
+
+
+h2,h3{
+	font-family: Georgia Bold;
+}
+
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+} 
+
+
+
+/* Custom design */
+
+.card-grey{
+    border-radius: 5px;
+    background: #cfd3ce;
+    padding: 60px;
+    margin: 50px 0px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+
+.image-round{
+	border-radius: 50%;
+	box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+
+.btn-grey{
+
+	background-color: #34626c;
+	color: white;
+	padding: 15px 20px;
+	border-radius:5px;
+}
+
+
+.btn-grey:hover{
+
+	background-color: #a20a0a;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+
+.list-inline i{
+	font-size: 50px;
+	color:#34626c;
+}
+
+.list-inline i:hover{
+
+	color:#a20a0a;
+}
+
+
+/* Design Adjustment */
+
+#container-brown{
+
+	width: 700px;
+    margin: 0px auto;
+    padding: 20px 40px;
+    background-color: #c6b497;
+}
+
+
+#intro-space p{
+	margin-bottom: 50px;
+
+}
+
+
+
+/* For desktop and mobile phones */
+
+@media (max-width: 992px) {
+
+	#container-brown{ 
+		width: 750px;
+		}
+	
+}
+
+@media (max-width: 900px) {
+
+	#container-brown{ 
+		width: 600px;
+		}
+	
+}
+
+
+@media (max-width: 768px) {
+
+	#container-brown{ 
+		width: 500px;
+		}
+	
+}
+
+@media (max-width: 680px) {
+
+	#container-brown{ 
+		width: 400px;
+		}	
+
+}
+
+@media (max-width: 320px) {
+
+	#container-brown{ 
+		width: 300px;
+		}
+
+}
+
+
+
+
